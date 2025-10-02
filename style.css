@@ -19,7 +19,6 @@ h2{
   height: 150px;
   border: 1px solid #000;
   padding: 10px;
-  resize: none; /* evita redimensionar */
   white-space: pre-wrap; /* mantém quebra */
 }
 
@@ -30,4 +29,5 @@ a{
     top: initial;
 
 }
+
 
