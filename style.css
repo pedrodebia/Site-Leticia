@@ -1,0 +1,34 @@
+body {
+    background-color: #9E9E9E;
+        
+}
+
+h1 {
+    color: #E0AD19;
+    text-align-last: auto;
+    text-decoration-line: underline;
+    text-decoration-color: #E0AD19;    
+}
+
+h2{
+
+}
+
+.retangular {
+    width: 600px;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    white-space: nowrap;  /* Impede a quebra automática */
+    overflow: hidden;  /* Oculta conteúdo que excede */
+    text-overflow: ellipsis;  /* Adiciona reticências (...) quando o texto excede */
+}
+
+a{
+    background-color: black;
+    color: white;
+    font:menu;
+    top: initial;
+}
