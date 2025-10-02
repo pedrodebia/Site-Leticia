@@ -21,7 +21,7 @@ h2{
     font-size: 16px;
     border: 2px solid #333;
     border-radius: 5px;
-    white-space: nowrap;  /* Impede a quebra automática */
+    white-space: pre-wrap;  /* Impede a quebra automática */
     overflow: hidden;  /* Oculta conteúdo que excede */
     text-overflow: ellipsis;  /* Adiciona reticências (...) quando o texto excede */
 }
@@ -31,4 +31,5 @@ a{
     color: white;
     font:menu;
     top: initial;
+
 }
