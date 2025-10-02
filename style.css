@@ -15,15 +15,12 @@ h2{
 }
 
 .retangular {
-    width: 600px;
-    height: 120px;
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #333;
-    border-radius: 5px;
-    white-space: pre-wrap;  /* Impede a quebra automática */
-    overflow: hidden;  /* Oculta conteúdo que excede */
-    text-overflow: ellipsis;  /* Adiciona reticências (...) quando o texto excede */
+  width: 400px;
+  height: 150px;
+  border: 1px solid #000;
+  padding: 10px;
+  resize: none; /* evita redimensionar */
+  white-space: pre-wrap; /* mantém quebra */
 }
 
 a{
@@ -33,3 +30,4 @@ a{
     top: initial;
 
 }
+
